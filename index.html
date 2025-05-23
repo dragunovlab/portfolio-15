@@ -1,0 +1,969 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alexandr Dragunov — React Developer Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-content">
+            <div class="logo">Alexandr Dragunov</div>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <section id="home" class="section active">
+            <div class="hero-content">
+                <h1>React Developer</h1>
+                <p class="subtitle">Building modern web experiences</p>
+                <div class="cta-buttons">
+                    <a href="#projects" class="btn primary">View Projects</a>
+                    <a href="#contact" class="btn secondary">Contact Me</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <div class="about-grid">
+                    <div class="about-card">
+                        <div class="about-header">
+                            <i class="fas fa-user-circle"></i>
+                            <h3>Professional Profile</h3>
+                        </div>
+                        <p>I am a Middle-level React Developer with over 3 years of experience in creating scalable, performant, and aesthetically refined web applications. My expertise spans React, Next.js, and TypeScript, with a strong focus on clean architecture and code quality.</p>
+                        <p>My approach combines design thinking with engineering excellence. I don't just implement components - I craft solutions that are both beautiful and functional. When it comes to bugs, I tackle them methodically and thoroughly, ensuring robust and reliable applications.</p>
+                    </div>
+                    <div class="about-card">
+                        <div class="about-header">
+                            <i class="fas fa-code"></i>
+                            <h3>Development Philosophy</h3>
+                        </div>
+                        <p>My code speaks for itself - it's clean, well-structured, and maintainable. I'm always ready to explain the reasoning behind any implementation, making knowledge sharing a natural part of my workflow.</p>
+                        <p>In team environments, I thrive on responsibility and challenges. I consistently deliver ahead of deadlines while maintaining high quality standards. My goal is to create intelligent interfaces that are both useful and beautiful, working like clockwork.</p>
+                    </div>
+                    <div class="about-card">
+                        <div class="skill-header">
+                            <i class="fab fa-react"></i>
+                            <h3>Core Expertise</h3>
+                        </div>
+                        <ul>
+                            <li><i class="fas fa-check"></i> React & Redux Toolkit</li>
+                            <li><i class="fas fa-check"></i> Next.js & TypeScript</li>
+                            <li><i class="fas fa-check"></i> State Management</li>
+                            <li><i class="fas fa-check"></i> Performance Optimization</li>
+                        </ul>
+                    </div>
+                    <div class="about-card">
+                        <div class="skill-header">
+                            <i class="fas fa-paint-brush"></i>
+                            <h3>Design & UI</h3>
+                        </div>
+                        <ul>
+                            <li><i class="fas fa-check"></i> Tailwind CSS</li>
+                            <li><i class="fas fa-check"></i> Figma & Design Systems</li>
+                            <li><i class="fas fa-check"></i> Responsive Design</li>
+                            <li><i class="fas fa-check"></i> UI/UX Best Practices</li>
+                        </ul>
+                    </div>
+                    <div class="about-card">
+                        <div class="skill-header">
+                            <i class="fas fa-server"></i>
+                            <h3>Backend & API</h3>
+                        </div>
+                        <ul>
+                            <li><i class="fas fa-check"></i> REST & GraphQL</li>
+                            <li><i class="fas fa-check"></i> WebSocket</li>
+                            <li><i class="fas fa-check"></i> SSR/SSG</li>
+                            <li><i class="fas fa-check"></i> API Integration</li>
+                        </ul>
+                    </div>
+                    <div class="about-card">
+                        <div class="skill-header">
+                            <i class="fas fa-database"></i>
+                            <h3>Database & Tools</h3>
+                        </div>
+                        <ul>
+                            <li><i class="fas fa-check"></i> MongoDB & PostgreSQL</li>
+                            <li><i class="fas fa-check"></i> Firebase & Supabase</li>
+                            <li><i class="fas fa-check"></i> Git & GitHub</li>
+                            <li><i class="fas fa-check"></i> Docker Basics</li>
+                        </ul>
+                    </div>
+                    <div class="about-card">
+                        <div class="skill-header">
+                            <i class="fas fa-vial"></i>
+                            <h3>Testing & Quality</h3>
+                        </div>
+                        <ul>
+                            <li><i class="fas fa-check"></i> Jest & RTL</li>
+                            <li><i class="fas fa-check"></i> E2E Testing</li>
+                            <li><i class="fas fa-check"></i> Code Review</li>
+                            <li><i class="fas fa-check"></i> CI/CD</li>
+                        </ul>
+                    </div>
+                    <div class="about-card">
+                        <div class="skill-header">
+                            <i class="fas fa-rocket"></i>
+                            <h3>DevOps & Deployment</h3>
+                        </div>
+                        <ul>
+                            <li><i class="fas fa-check"></i> GitHub Actions</li>
+                            <li><i class="fas fa-check"></i> Vercel Deployment</li>
+                            <li><i class="fas fa-check"></i> Performance Monitoring</li>
+                            <li><i class="fas fa-check"></i> Error Tracking</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <i class="fab fa-react"></i>
+                    <h3>React</h3>
+                    <div class="skill-progress">
+                        <div class="progress-bar" style="--progress: 95%"></div>
+                        <span data-value="95">95%</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-js"></i>
+                    <h3>JavaScript</h3>
+                    <div class="skill-progress">
+                        <div class="progress-bar" style="--progress: 90%"></div>
+                        <span data-value="90">90%</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-code"></i>
+                    <h3>TypeScript</h3>
+                    <div class="skill-progress">
+                        <div class="progress-bar" style="--progress: 85%"></div>
+                        <span data-value="85">85%</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-code-branch"></i>
+                    <h3>Redux Toolkit</h3>
+                    <div class="skill-progress">
+                        <div class="progress-bar" style="--progress: 85%"></div>
+                        <span data-value="85">85%</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-node-js"></i>
+                    <h3>Next.js</h3>
+                    <div class="skill-progress">
+                        <div class="progress-bar" style="--progress: 85%"></div>
+                        <span data-value="85">85%</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-paint-brush"></i>
+                    <h3>Tailwind CSS</h3>
+                    <div class="skill-progress">
+                        <div class="progress-bar" style="--progress: 85%"></div>
+                        <span data-value="85">85%</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-html5"></i>
+                    <h3>HTML5</h3>
+                    <div class="skill-progress">
+                        <div class="progress-bar" style="--progress: 85%"></div>
+                        <span data-value="85">85%</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-css3-alt"></i>
+                    <h3>CSS3</h3>
+                    <div class="skill-progress">
+                        <div class="progress-bar" style="--progress: 85%"></div>
+                        <span data-value="85">85%</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-server"></i>
+                    <h3>REST API</h3>
+                    <div class="skill-progress">
+                        <div class="progress-bar" style="--progress: 85%"></div>
+                        <span data-value="85">85%</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-git-alt"></i>
+                    <h3>Git</h3>
+                    <div class="skill-progress">
+                        <div class="progress-bar" style="--progress: 85%"></div>
+                        <span data-value="85">85%</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-npm"></i>
+                    <h3>npm</h3>
+                    <div class="skill-progress">
+                        <div class="progress-bar" style="--progress: 85%"></div>
+                        <span data-value="85">85%</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-tachometer-alt"></i>
+                    <h3>Performance</h3>
+                    <div class="skill-progress">
+                        <div class="progress-bar" style="--progress: 85%"></div>
+                        <span data-value="85">85%</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-code"></i>
+                    <h3>React Hook Form</h3>
+                    <div class="skill-progress">
+                        <div class="progress-bar" style="--progress: 85%"></div>
+                        <span data-value="85">85%</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-check-circle"></i>
+                    <h3>Yup</h3>
+                    <div class="skill-progress">
+                        <div class="progress-bar" style="--progress: 85%"></div>
+                        <span data-value="85">85%</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-terminal"></i>
+                    <h3>ESLint/Prettier</h3>
+                    <div class="skill-progress">
+                        <div class="progress-bar" style="--progress: 85%"></div>
+                        <span data-value="85">85%</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-database"></i>
+                    <h3>MongoDB</h3>
+                    <div class="skill-progress">
+                        <div class="progress-bar" style="--progress: 75%"></div>
+                        <span data-value="75">75%</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-shield-alt"></i>
+                    <h3>GraphQL</h3>
+                    <div class="skill-progress">
+                        <div class="progress-bar" style="--progress: 75%"></div>
+                        <span data-value="75">75%</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <h2>Projects</h2>
+            <div class="project-tabs">
+                <button class="tab-btn active" data-filter="all">All</button>
+                <button class="tab-btn" data-filter="javascript">JavaScript</button>
+                <button class="tab-btn" data-filter="react">React</button>
+                <button class="tab-btn" data-filter="angular">Angular</button>
+                <button class="tab-btn" data-filter="vue">Vue</button>
+                <button class="tab-btn" data-filter="nextjs">Next.js</button>
+                <button class="tab-btn" data-filter="typescript">TypeScript</button>
+                <button class="tab-btn" data-filter="nodejs">Node.js</button>
+                <button class="tab-btn" data-filter="database">Database</button>
+                <button class="tab-btn" data-filter="ui">UI/UX</button>
+            </div>
+            <div class="projects-grid">
+                <!-- JavaScript Projects -->
+                <div class="project-card" data-technologies="javascript">
+                    <div class="project-image" style="background: linear-gradient(45deg, #f7df1e, #f0db4f);">
+                        <div class="project-tech">
+                            <span>JavaScript</span>
+                            <span>Canvas API</span>
+                            <span>WebGL</span>
+                        </div>
+                    </div>
+                    <h3>Interactive Game Engine</h3>
+                    <p>Custom game engine with physics simulation and particle effects.</p>
+                    <div class="project-links">
+                        <a href="#" class="btn small">View Demo</a>
+                        <a href="#" class="btn small secondary">Source Code</a>
+                    </div>
+                </div>
+
+                <div class="project-card" data-technologies="javascript">
+                    <div class="project-image" style="background: linear-gradient(45deg, #f7df1e, #f0db4f);">
+                        <div class="project-tech">
+                            <span>JavaScript</span>
+                            <span>Web Audio API</span>
+                            <span>Canvas</span>
+                        </div>
+                    </div>
+                    <h3>Audio Visualizer</h3>
+                    <p>Real-time audio visualization tool with custom effects and interactive controls.</p>
+                    <div class="project-links">
+                        <a href="#" class="btn small">View Demo</a>
+                        <a href="#" class="btn small secondary">Source Code</a>
+                    </div>
+                </div>
+
+                <!-- React Projects -->
+                <div class="project-card" data-technologies="react">
+                    <div class="project-image" style="background: linear-gradient(45deg, #61dafb, #282c34);">
+                        <div class="project-tech">
+                            <span>React</span>
+                            <span>Redux</span>
+                            <span>WebSocket</span>
+                        </div>
+                    </div>
+                    <h3>Real-time Trading Platform</h3>
+                    <p>Advanced trading platform with real-time data and charts.</p>
+                    <div class="project-links">
+                        <a href="#" class="btn small">View Demo</a>
+                        <a href="#" class="btn small secondary">Source Code</a>
+                    </div>
+                </div>
+
+                <div class="project-card" data-technologies="react">
+                    <div class="project-image" style="background: linear-gradient(45deg, #61dafb, #282c34);">
+                        <div class="project-tech">
+                            <span>React</span>
+                            <span>Three.js</span>
+                            <span>WebGL</span>
+                        </div>
+                    </div>
+                    <h3>3D Product Configurator</h3>
+                    <p>Interactive 3D product customization tool with real-time rendering.</p>
+                    <div class="project-links">
+                        <a href="#" class="btn small">View Demo</a>
+                        <a href="#" class="btn small secondary">Source Code</a>
+                    </div>
+                </div>
+
+                <!-- Angular Projects -->
+                <div class="project-card" data-technologies="angular">
+                    <div class="project-image" style="background: linear-gradient(45deg, #dd0031, #c3002f);">
+                        <div class="project-tech">
+                            <span>Angular</span>
+                            <span>RxJS</span>
+                            <span>NgRx</span>
+                        </div>
+                    </div>
+                    <h3>Enterprise Dashboard</h3>
+                    <p>Complex enterprise dashboard with real-time data visualization.</p>
+                    <div class="project-links">
+                        <a href="#" class="btn small">View Demo</a>
+                        <a href="#" class="btn small secondary">Source Code</a>
+                    </div>
+                </div>
+
+                <div class="project-card" data-technologies="angular">
+                    <div class="project-image" style="background: linear-gradient(45deg, #dd0031, #c3002f);">
+                        <div class="project-tech">
+                            <span>Angular</span>
+                            <span>D3.js</span>
+                            <span>TypeScript</span>
+                        </div>
+                    </div>
+                    <h3>Data Visualization Tool</h3>
+                    <p>Advanced data visualization tool with interactive charts and dashboards.</p>
+                    <div class="project-links">
+                        <a href="#" class="btn small">View Demo</a>
+                        <a href="#" class="btn small secondary">Source Code</a>
+                    </div>
+                </div>
+
+                <!-- Vue Projects -->
+                <div class="project-card" data-technologies="vue">
+                    <div class="project-image" style="background: linear-gradient(45deg, #42b883, #35495e);">
+                        <div class="project-tech">
+                            <span>Vue</span>
+                            <span>Vuex</span>
+                            <span>Vuetify</span>
+                        </div>
+                    </div>
+                    <h3>E-commerce Admin Panel</h3>
+                    <p>Modern admin panel for e-commerce platform with product management.</p>
+                    <div class="project-links">
+                        <a href="#" class="btn small">View Demo</a>
+                        <a href="#" class="btn small secondary">Source Code</a>
+                    </div>
+                </div>
+
+                <div class="project-card" data-technologies="vue">
+                    <div class="project-image" style="background: linear-gradient(45deg, #42b883, #35495e);">
+                        <div class="project-tech">
+                            <span>Vue</span>
+                            <span>Nuxt.js</span>
+                            <span>Tailwind</span>
+                        </div>
+                    </div>
+                    <h3>Blog Platform</h3>
+                    <p>Modern blog platform with SSR capabilities and markdown support.</p>
+                    <div class="project-links">
+                        <a href="#" class="btn small">View Demo</a>
+                        <a href="#" class="btn small secondary">Source Code</a>
+                    </div>
+                </div>
+
+                <!-- Next.js Projects -->
+                <div class="project-card" data-technologies="nextjs">
+                    <div class="project-image" style="background: linear-gradient(45deg, #000000, #ffffff);">
+                        <div class="project-tech">
+                            <span>Next.js</span>
+                            <span>TypeScript</span>
+                            <span>Tailwind</span>
+                        </div>
+                    </div>
+                    <h3>E-commerce Platform</h3>
+                    <p>Full-stack e-commerce platform with server-side rendering and dynamic routing.</p>
+                    <div class="project-links">
+                        <a href="#" class="btn small">View Demo</a>
+                        <a href="#" class="btn small secondary">Source Code</a>
+                    </div>
+                </div>
+
+                <div class="project-card" data-technologies="nextjs">
+                    <div class="project-image" style="background: linear-gradient(45deg, #000000, #ffffff);">
+                        <div class="project-tech">
+                            <span>Next.js</span>
+                            <span>GraphQL</span>
+                            <span>Prisma</span>
+                        </div>
+                    </div>
+                    <h3>Blog CMS</h3>
+                    <p>Modern blog content management system with real-time updates and SEO optimization.</p>
+                    <div class="project-links">
+                        <a href="#" class="btn small">View Demo</a>
+                        <a href="#" class="btn small secondary">Source Code</a>
+                    </div>
+                </div>
+
+                <!-- Node.js Projects -->
+                <div class="project-card" data-technologies="nodejs">
+                    <div class="project-image" style="background: linear-gradient(45deg, #339933, #333333);">
+                        <div class="project-tech">
+                            <span>Node.js</span>
+                            <span>Express</span>
+                            <span>Socket.io</span>
+                        </div>
+                    </div>
+                    <h3>Real-time Chat Application</h3>
+                    <p>Scalable chat application with real-time messaging and user presence.</p>
+                    <div class="project-links">
+                        <a href="#" class="btn small">View Demo</a>
+                        <a href="#" class="btn small secondary">Source Code</a>
+                    </div>
+                </div>
+
+                <div class="project-card" data-technologies="nodejs">
+                    <div class="project-image" style="background: linear-gradient(45deg, #339933, #333333);">
+                        <div class="project-tech">
+                            <span>Node.js</span>
+                            <span>REST API</span>
+                            <span>JWT</span>
+                        </div>
+                    </div>
+                    <h3>Authentication Service</h3>
+                    <p>Secure authentication service with JWT and role-based access control.</p>
+                    <div class="project-links">
+                        <a href="#" class="btn small">View Demo</a>
+                        <a href="#" class="btn small secondary">Source Code</a>
+                    </div>
+                </div>
+
+                <!-- Database Projects -->
+                <div class="project-card" data-technologies="database">
+                    <div class="project-image" style="background: linear-gradient(45deg, #00618a, #00a0e9);">
+                        <div class="project-tech">
+                            <span>MongoDB</span>
+                            <span>Mongoose</span>
+                            <span>Express</span>
+                        </div>
+                    </div>
+                    <h3>Data Analytics Platform</h3>
+                    <p>Real-time data analytics platform with MongoDB aggregation pipeline.</p>
+                    <div class="project-links">
+                        <a href="#" class="btn small">View Demo</a>
+                        <a href="#" class="btn small secondary">Source Code</a>
+                    </div>
+                </div>
+
+                <div class="project-card" data-technologies="database">
+                    <div class="project-image" style="background: linear-gradient(45deg, #00618a, #00a0e9);">
+                        <div class="project-tech">
+                            <span>PostgreSQL</span>
+                            <span>Prisma</span>
+                            <span>TypeScript</span>
+                        </div>
+                    </div>
+                    <h3>Inventory Management System</h3>
+                    <p>Advanced inventory management system with complex database relationships.</p>
+                    <div class="project-links">
+                        <a href="#" class="btn small">View Demo</a>
+                        <a href="#" class="btn small secondary">Source Code</a>
+                    </div>
+                </div>
+
+                <!-- UI/UX Projects -->
+                <div class="project-card" data-technologies="ui">
+                    <div class="project-image" style="background: linear-gradient(45deg, #ff6b6b, #ff8e8e);">
+                        <div class="project-tech">
+                            <span>Figma</span>
+                            <span>React</span>
+                            <span>Tailwind</span>
+                        </div>
+                    </div>
+                    <h3>Design System</h3>
+                    <p>Comprehensive design system with component library and documentation.</p>
+                    <div class="project-links">
+                        <a href="#" class="btn small">View Demo</a>
+                        <a href="#" class="btn small secondary">Source Code</a>
+                    </div>
+                </div>
+
+                <div class="project-card" data-technologies="ui">
+                    <div class="project-image" style="background: linear-gradient(45deg, #ff6b6b, #ff8e8e);">
+                        <div class="project-tech">
+                            <span>Figma</span>
+                            <span>Prototyping</span>
+                            <span>User Research</span>
+                        </div>
+                    </div>
+                    <h3>Mobile App Redesign</h3>
+                    <p>Complete mobile app redesign with user research and interactive prototypes.</p>
+                    <div class="project-links">
+                        <a href="#" class="btn small">View Demo</a>
+                        <a href="#" class="btn small secondary">Source Code</a>
+                    </div>
+                </div>
+
+                <!-- Additional Next.js Projects -->
+                <div class="project-card" data-technologies="nextjs">
+                    <div class="project-image" style="background: linear-gradient(45deg, #000000, #ffffff);">
+                        <div class="project-tech">
+                            <span>Next.js</span>
+                            <span>TypeScript</span>
+                            <span>Tailwind</span>
+                        </div>
+                    </div>
+                    <h3>Portfolio Website</h3>
+                    <p>Modern portfolio website with dark mode, animations, and SEO optimization.</p>
+                    <div class="project-links">
+                        <a href="#" class="btn small">View Demo</a>
+                        <a href="#" class="btn small secondary">Source Code</a>
+                    </div>
+                </div>
+
+                <div class="project-card" data-technologies="nextjs">
+                    <div class="project-image" style="background: linear-gradient(45deg, #000000, #ffffff);">
+                        <div class="project-tech">
+                            <span>Next.js</span>
+                            <span>Supabase</span>
+                            <span>Stripe</span>
+                        </div>
+                    </div>
+                    <h3>Digital Product Marketplace</h3>
+                    <p>Full-stack marketplace for digital products with secure payments and user authentication.</p>
+                    <div class="project-links">
+                        <a href="#" class="btn small">View Demo</a>
+                        <a href="#" class="btn small secondary">Source Code</a>
+                    </div>
+                </div>
+
+                <div class="project-card" data-technologies="nextjs">
+                    <div class="project-image" style="background: linear-gradient(45deg, #000000, #ffffff);">
+                        <div class="project-tech">
+                            <span>Next.js</span>
+                            <span>GraphQL</span>
+                            <span>Apollo Client</span>
+                        </div>
+                    </div>
+                    <h3>Social Media Dashboard</h3>
+                    <p>Real-time social media analytics dashboard with data visualization and reporting.</p>
+                    <div class="project-links">
+                        <a href="#" class="btn small">View Demo</a>
+                        <a href="#" class="btn small secondary">Source Code</a>
+                    </div>
+                </div>
+
+                <div class="project-card" data-technologies="nextjs">
+                    <div class="project-image" style="background: linear-gradient(45deg, #000000, #ffffff);">
+                        <div class="project-tech">
+                            <span>Next.js</span>
+                            <span>MongoDB</span>
+                            <span>Socket.io</span>
+                        </div>
+                    </div>
+                    <h3>Real-time Collaboration Tool</h3>
+                    <p>Collaborative workspace with real-time updates, chat, and document sharing.</p>
+                    <div class="project-links">
+                        <a href="#" class="btn small">View Demo</a>
+                        <a href="#" class="btn small secondary">Source Code</a>
+                    </div>
+                </div>
+
+                <div class="project-card" data-technologies="nextjs">
+                    <div class="project-image" style="background: linear-gradient(45deg, #000000, #ffffff);">
+                        <div class="project-tech">
+                            <span>Next.js</span>
+                            <span>Prisma</span>
+                            <span>PostgreSQL</span>
+                        </div>
+                    </div>
+                    <h3>Job Board Platform</h3>
+                    <p>Advanced job board with search, filtering, and real-time notifications.</p>
+                    <div class="project-links">
+                        <a href="#" class="btn small">View Demo</a>
+                        <a href="#" class="btn small secondary">Source Code</a>
+                    </div>
+                </div>
+
+                <!-- Additional Node.js Projects -->
+                <div class="project-card" data-technologies="nodejs">
+                    <div class="project-image" style="background: linear-gradient(45deg, #339933, #333333);">
+                        <div class="project-tech">
+                            <span>Node.js</span>
+                            <span>MongoDB</span>
+                            <span>Redis</span>
+                        </div>
+                    </div>
+                    <h3>Microservices Architecture</h3>
+                    <p>Scalable microservices architecture with service discovery and load balancing.</p>
+                    <div class="project-links">
+                        <a href="#" class="btn small">View Demo</a>
+                        <a href="#" class="btn small secondary">Source Code</a>
+                    </div>
+                </div>
+
+                <!-- Additional Database Projects -->
+                <div class="project-card" data-technologies="database">
+                    <div class="project-image" style="background: linear-gradient(45deg, #00618a, #00a0e9);">
+                        <div class="project-tech">
+                            <span>PostgreSQL</span>
+                            <span>Redis</span>
+                            <span>TypeORM</span>
+                        </div>
+                    </div>
+                    <h3>High-Performance Database System</h3>
+                    <p>Optimized database system with caching and query optimization.</p>
+                    <div class="project-links">
+                        <a href="#" class="btn small">View Demo</a>
+                        <a href="#" class="btn small secondary">Source Code</a>
+                    </div>
+                </div>
+
+                <!-- Additional UI/UX Projects -->
+                <div class="project-card" data-technologies="ui">
+                    <div class="project-image" style="background: linear-gradient(45deg, #ff6b6b, #ff8e8e);">
+                        <div class="project-tech">
+                            <span>Figma</span>
+                            <span>Adobe XD</span>
+                            <span>Prototyping</span>
+                        </div>
+                    </div>
+                    <h3>Mobile Banking App</h3>
+                    <p>Modern mobile banking interface with intuitive navigation and biometric authentication.</p>
+                    <div class="project-links">
+                        <a href="#" class="btn small">View Demo</a>
+                        <a href="#" class="btn small secondary">Source Code</a>
+                    </div>
+                </div>
+
+                <!-- Additional React Projects -->
+                <div class="project-card" data-technologies="react">
+                    <div class="project-image" style="background: linear-gradient(45deg, #61dafb, #282c34);">
+                        <div class="project-tech">
+                            <span>React</span>
+                            <span>Firebase</span>
+                            <span>Material-UI</span>
+                        </div>
+                    </div>
+                    <h3>Task Management App</h3>
+                    <p>Collaborative task management application with real-time updates and team features.</p>
+                    <div class="project-links">
+                        <a href="#" class="btn small">View Demo</a>
+                        <a href="#" class="btn small secondary">Source Code</a>
+                    </div>
+                </div>
+
+                <!-- Additional JavaScript Projects -->
+                <div class="project-card" data-technologies="javascript">
+                    <div class="project-image" style="background: linear-gradient(45deg, #f7df1e, #f0db4f);">
+                        <div class="project-tech">
+                            <span>JavaScript</span>
+                            <span>WebRTC</span>
+                            <span>MediaRecorder API</span>
+                        </div>
+                    </div>
+                    <h3>Video Chat Application</h3>
+                    <p>Real-time video chat application with screen sharing and recording capabilities.</p>
+                    <div class="project-links">
+                        <a href="#" class="btn small">View Demo</a>
+                        <a href="#" class="btn small secondary">Source Code</a>
+                    </div>
+                </div>
+
+                <!-- TypeScript Projects -->
+                <div class="project-card" data-technologies="typescript">
+                    <div class="project-image" style="background: linear-gradient(45deg, #3178c6, #235a97);">
+                        <div class="project-tech">
+                            <span>TypeScript</span>
+                            <span>Node.js</span>
+                            <span>Express</span>
+                        </div>
+                    </div>
+                    <h3>API Gateway Service</h3>
+                    <p>Enterprise-grade API gateway with request routing and authentication.</p>
+                    <div class="project-links">
+                        <a href="#" class="btn small">View Demo</a>
+                        <a href="#" class="btn small secondary">Source Code</a>
+                    </div>
+                </div>
+
+                <div class="project-card" data-technologies="typescript">
+                    <div class="project-image" style="background: linear-gradient(45deg, #3178c6, #235a97);">
+                        <div class="project-tech">
+                            <span>TypeScript</span>
+                            <span>React</span>
+                            <span>GraphQL</span>
+                        </div>
+                    </div>
+                    <h3>Task Management System</h3>
+                    <p>Advanced task management system with real-time updates and team collaboration.</p>
+                    <div class="project-links">
+                        <a href="#" class="btn small">View Demo</a>
+                        <a href="#" class="btn small secondary">Source Code</a>
+                    </div>
+                </div>
+
+                <div class="project-card" data-technologies="typescript">
+                    <div class="project-image" style="background: linear-gradient(45deg, #3178c6, #235a97);">
+                        <div class="project-tech">
+                            <span>TypeScript</span>
+                            <span>NestJS</span>
+                            <span>PostgreSQL</span>
+                        </div>
+                    </div>
+                    <h3>Microservices Backend</h3>
+                    <p>Scalable microservices architecture with TypeScript and NestJS.</p>
+                    <div class="project-links">
+                        <a href="#" class="btn small">View Demo</a>
+                        <a href="#" class="btn small secondary">Source Code</a>
+                    </div>
+                </div>
+
+                <!-- Additional Node.js Projects -->
+                <div class="project-card" data-technologies="nodejs">
+                    <div class="project-image" style="background: linear-gradient(45deg, #339933, #333333);">
+                        <div class="project-tech">
+                            <span>Node.js</span>
+                            <span>Express</span>
+                            <span>MongoDB</span>
+                        </div>
+                    </div>
+                    <h3>REST API Service</h3>
+                    <p>High-performance REST API with caching and rate limiting.</p>
+                    <div class="project-links">
+                        <a href="#" class="btn small">View Demo</a>
+                        <a href="#" class="btn small secondary">Source Code</a>
+                    </div>
+                </div>
+
+                <div class="project-card" data-technologies="nodejs">
+                    <div class="project-image" style="background: linear-gradient(45deg, #339933, #333333);">
+                        <div class="project-tech">
+                            <span>Node.js</span>
+                            <span>WebSocket</span>
+                            <span>Redis</span>
+                        </div>
+                    </div>
+                    <h3>Real-time Analytics Engine</h3>
+                    <p>Real-time data processing and analytics engine with WebSocket support.</p>
+                    <div class="project-links">
+                        <a href="#" class="btn small">View Demo</a>
+                        <a href="#" class="btn small secondary">Source Code</a>
+                    </div>
+                </div>
+
+                <!-- Additional Database Projects -->
+                <div class="project-card" data-technologies="database">
+                    <div class="project-image" style="background: linear-gradient(45deg, #00618a, #00a0e9);">
+                        <div class="project-tech">
+                            <span>MongoDB</span>
+                            <span>Express</span>
+                            <span>Redis</span>
+                        </div>
+                    </div>
+                    <h3>Data Warehouse System</h3>
+                    <p>Scalable data warehouse solution with ETL processes and data modeling.</p>
+                    <div class="project-links">
+                        <a href="#" class="btn small">View Demo</a>
+                        <a href="#" class="btn small secondary">Source Code</a>
+                    </div>
+                </div>
+
+                <div class="project-card" data-technologies="database">
+                    <div class="project-image" style="background: linear-gradient(45deg, #00618a, #00a0e9);">
+                        <div class="project-tech">
+                            <span>PostgreSQL</span>
+                            <span>Redis</span>
+                            <span>TypeORM</span>
+                        </div>
+                    </div>
+                    <h3>High-Performance Database System</h3>
+                    <p>Optimized database system with caching and query optimization.</p>
+                    <div class="project-links">
+                        <a href="#" class="btn small">View Demo</a>
+                        <a href="#" class="btn small secondary">Source Code</a>
+                    </div>
+                </div>
+
+                <!-- Additional UI/UX Projects -->
+                <div class="project-card" data-technologies="ui">
+                    <div class="project-image" style="background: linear-gradient(45deg, #ff6b6b, #ff8e8e);">
+                        <div class="project-tech">
+                            <span>Figma</span>
+                            <span>Adobe XD</span>
+                            <span>Prototyping</span>
+                        </div>
+                    </div>
+                    <h3>Mobile Banking App</h3>
+                    <p>Modern mobile banking interface with intuitive navigation and biometric authentication.</p>
+                    <div class="project-links">
+                        <a href="#" class="btn small">View Demo</a>
+                        <a href="#" class="btn small secondary">Source Code</a>
+                    </div>
+                </div>
+
+                <div class="project-card" data-technologies="ui">
+                    <div class="project-image" style="background: linear-gradient(45deg, #ff6b6b, #ff8e8e);">
+                        <div class="project-tech">
+                            <span>Figma</span>
+                            <span>User Research</span>
+                            <span>Design System</span>
+                        </div>
+                    </div>
+                    <h3>E-commerce Design System</h3>
+                    <p>Comprehensive design system for e-commerce platform with component library.</p>
+                    <div class="project-links">
+                        <a href="#" class="btn small">View Demo</a>
+                        <a href="#" class="btn small secondary">Source Code</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience" class="section">
+            <h2>Experience</h2>
+            <div class="experience-grid">
+                <div class="experience-card">
+                    <div class="experience-header">
+                        <i class="fas fa-briefcase"></i>
+                        <div>
+                            <h3>Frontend-разработчик (React/Next.js)</h3>
+                            <div class="experience-meta">
+                                <span class="company">AxelTech Solutions</span> · <span class="location">Алматы / Удалёнка</span>
+                            </div>
+                            <div class="experience-date">
+                                <i class="far fa-clock"></i>
+                                <span>Март 2022 — Май 2025</span>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="experience-description">
+                        Создавал масштабируемые веб-приложения для e-commerce и SaaS продуктов, вёл архитектуру фронтенда, активно участвовал в принятии технических решений.
+                    </p>
+                    <ul class="experience-achievements">
+                        <li>Разработал кастомный UI-kit на TypeScript + Tailwind, который сократил время разработки новых фич на 40%.</li>
+                        <li>Переписал SPA на Next.js с SSR, благодаря чему показатель Core Web Vitals улучшился до 95+.</li>
+                        <li>Внедрил lazy-loading и динамический импорт, снизив initial bundle size на 60%.</li>
+                        <li>Реализовал дашборд с real-time обновлением данных через WebSocket (Socket.IO).</li>
+                        <li>Плотно работал с дизайнером и аналитиком — получился продукт, которым реально пользуются.</li>
+                        <li>Настроил CI/CD с GitHub Actions и деплой на Vercel.</li>
+                        <li>Код покрыт юнит и интеграционными тестами (Jest + React Testing Library).</li>
+                    </ul>
+                </div>
+                <div class="experience-card">
+                    <div class="experience-header">
+                        <i class="fas fa-briefcase"></i>
+                        <div>
+                            <h3>Frontend-разработчик (React)</h3>
+                            <div class="experience-meta">
+                                <span class="company">NovaDigital</span> · <span class="location">Аутсорс / Удалёнка</span>
+                            </div>
+                            <div class="experience-date">
+                                <i class="far fa-clock"></i>
+                                <span>Сентябрь 2020 — Февраль 2022</span>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="experience-description">
+                        Работал в распределённой команде над проектами для финтеха, маркетинга и недвижимости. Разработка велась по Scrum, тесно взаимодействовал с бэкендом, дизайнером и QA.
+                    </p>
+                    <ul class="experience-achievements">
+                        <li>Реализовал адаптивные интерфейсы по макетам из Figma (Pixel Perfect).</li>
+                        <li>Интегрировал REST API и GraphQL, обрабатывал сложные состояния через Redux Toolkit.</li>
+                        <li>Внедрил форму авторизации с валидацией (React Hook Form + Yup).</li>
+                        <li>Разрабатывал кастомные компоненты таблиц, модалок и селектов.</li>
+                        <li>Проводил code review и улучшал DX команды (Eslint, Prettier, Husky, Storybook).</li>
+                        <li>Работал с Firebase и MongoDB для небольших MVP-прототипов.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <h2>Contact</h2>
+            <div class="contact-grid">
+                <div class="contact-card">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <p>email@example.com</p>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <p>+1 234 567 890</p>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <p>Location, Country</p>
+                        </div>
+                    </div>
+                    <div class="contact-socials">
+                        <a href="https://github.com/yourusername" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="https://t.me/yourusername" target="_blank" aria-label="Telegram"><i class="fab fa-telegram"></i></a>
+                        <a href="https://linkedin.com/in/yourusername" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <!-- Добавьте другие соцсети по желанию -->
+                    </div>
+                </div>
+                <div class="contact-card">
+                    <form class="contact-form">
+                        <input type="text" placeholder="Name" required>
+                        <input type="email" placeholder="Email" required>
+                        <textarea placeholder="Message" required></textarea>
+                        <button type="submit" class="btn primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html> 
